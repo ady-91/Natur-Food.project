@@ -1,0 +1,17 @@
+{
+  "name": "developer",
+  "version": "1.0.0",
+  "description": "Landing page",
+  "main": "script.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w",
+    "devserver": "live-server --browser=firefox"
+  },
+  "author": "Andrei",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "live-server": "^1.2.2",
+    "node-sass": "^9.0.0"
+  }
+}
